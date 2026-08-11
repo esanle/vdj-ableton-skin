@@ -165,7 +165,7 @@
 			<define color="browseroverfocus" value="#4b4c4d"/>  
 			<define color="browser_scrollbar" value="#323336"/> 
 			<define color="browser_scrollbtn" value="#9b9b9b"/> 
-			<define color="browser_seperatorline" value="#7E7E7E"/> 
+			<define color="browser_seperatorline" value="#00000000"/> 
 			<define color="browser_seperatortab" value="#4d4e52"/> 
 
 			<!-- browser grid -->
@@ -2553,7 +2553,6 @@
 					</panel>
 				</panel>
 			</group>
-			<line x="+10" y="+10+90+10+100+10" width="799-307-10"  height="2" color="dark" hightlight="hightlight" shadow="shadow" />
 
 			<group name="area_pads" x="+10" y="+10+90+10+100+10+10">
 				<panel class="area_tab" action1="skin_panelgroup 'pads_[PANELNAME]' +1" action2="skin_panelgroup_available 'pads_[PANELNAME]'" text="PADS" localize="true"/>
@@ -2736,7 +2735,6 @@
 
 			<panel name="area_deck" x="+799-306" y="+341-233">
 
-				<line x="+0" y="+0" width="2" height="233" color="dark" hightlight="hightlight" shadow="shadow" />
 				<group name="area_jogwheel" x="+27+18" y="+12">
 				
 				 <group visibility="var_equal '@$spinner' 0">
@@ -3585,7 +3583,6 @@
 					</group>
 				</panel>
 			</group>
-			<line x="+306" y="+10+90+10+100+10" width="799-306-10"  height="2" color="dark" hightlight="hightlight" shadow="shadow"/>
 			<group name="area_pads" x="+306+169-24" y="+10+100+10+100+10">
 				<panel class="area_tab" orientation="vertical-cw" x="+314" y="+0" action1="skin_panelgroup 'pads_[PANELNAME]' +1" action2="skin_panelgroup_available 'pads_[PANELNAME]'" text="PADS" localize="true"/>
 				<panel name="@padparams_[PANELNAME]" group="pads_[PANELNAME]" visible="yes" available="yes" displayname="Pads (default)">
@@ -3672,7 +3669,6 @@
 
 		
 			<panel name="area_deckB" x="+0" y="+341-233">
-				<line x="+304" y="+0" width="2"  height="233" color="dark" hightlight="hightlight" shadow="shadow" />
 				<group name="area_jogwheel" x="+48+27+10+15" y="+12">
 
 				<group visibility="var_equal '@$spinner' 0">
@@ -4260,8 +4256,6 @@
 
 
 		<define class="mini_mixer" placeholders="*minideck_left=3,*minideck_right=4">
-				<line x="+0" y="+0" width="1" height="120" color="dark" hightlight="hightlight" shadow="shadow"/>
-				<line x="+322-1" y="+0" width="1" height="120" color="dark" hightlight="hightlight" shadow="shadow"/>
 					<group name="mini_mixer_4d2c" x="+0" y="+0"> 
 						<group name="vu_area" x="+80+60+1" y="+25">
 							<panel visibility="not deck [MINIDECK_LEFT] leftdeck">
@@ -4408,7 +4402,6 @@
 -->
 
 	
-<line name="lineabove" color="bordercolor"  x="0" y="+43-1" width="1920" height="1" />
 
 	<panel name="topwave">
 		
@@ -4421,8 +4414,6 @@
 			<size width="1920" height="173"/>
 			<off color="waveformbackground" shape="square"/>
 		</visual>
-		<line name="topwave_top" color="bordercolor"  x="0" y="+43-1" width="1920" height="1" />
-		<line name="topwave_bottom" color="hightlight"  x="+0" y="+44+173-1" width="1920" height="1"/>
 		<panel name="defaultwave" visibility="setting skinWaveformType 0 && var_equal '@$4decks' 0 ? true : var_equal '@$4waveforms' 0" x="0" y="+44">
 			<rhythmzone mirror="false" upsidedown="false" fade="200">
 				<pos x="0" y="+0"/>
@@ -4824,11 +4815,9 @@
  		<pos x="799" y="43"  condition="var_equal '@$waveformpos' 1" />
 
  		<group visibility="var_equal '@$4decks' 0 ? true : var_equal '@$4mixer' 1">
-			<line name="mixer_left" x="799" y="+0" width="2" height="341" color="dark" hightlight="hightlight" shadow="shadow"/>
 			<line name="mixer_right" x="1920-799-1" y="+0" width="2" height="341" color="dark" hightlight="shadow" shadow="hightlight"/>
 		</group>
  		<group visibility="var_equal '@$4mixer' 0 && var_not_equal '@$4decks' 0">
-			<line name="mixer_left" x="799" y="+0" width="2" height="341+120" color="dark" hightlight="hightlight" shadow="shadow"/>
 			<line name="mixer_right" x="1920-799-1" y="+0" width="2" height="341+120" color="dark" hightlight="shadow" shadow="hightlight"/>
 		</group>
 
@@ -5989,17 +5978,17 @@
 
 
 <visual name="browser_background" visibility="browser_zoom">
-	<pos x="10" y="43+120+4" />
-	<size width="1920-20" height="1080-43-120-5-10"/>
+	<pos x="0" y="43+120+4" />
+	<size width="1920" height="1080-43-120-5-10"/>
 	<off color="browserback" shape="square" />
 </visual>
 
 
 <group condition="var_equal '@$4decks' 0">
 	<browser class="browser">
-		<pos x="10" y="1080-512-10"/>
-		<size width="1920-20" height="512"/>
-		<zoomed x="10" y="43+120+5" width="1920-20" height="1080-43-120-5-10"/>
+		<pos x="0" y="1080-512-10"/>
+		<size width="1920" height="512"/>
+		<zoomed x="0" y="43+120+5" width="1920" height="1080-43-120-5-10"/>
 	</browser>
 </group>
 <group condition="var_not_equal '@$4decks' 0">
@@ -6009,9 +5998,9 @@
 		<line name="skin_divider" color="darker"  x="+799+322" y="1080-512-10-1" width="799" height="1" visibility="var_equal '@$4mixer' 0"/>
 	</group>
 	<browser class="browser">
-		<pos x="10" y="1080-512-10+120"/>
-		<size width="1920-20" height="512-120"/>
-		<zoomed x="10" y="43+120+5" width="1920-20" height="1080-43-120-5-10"/>
+		<pos x="0" y="1080-512-10+120"/>
+		<size width="1920" height="512-120"/>
+		<zoomed x="0" y="43+120+5" width="1920" height="1080-43-120-5-10"/>
 	</browser>
 </group>
 
