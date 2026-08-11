@@ -1340,7 +1340,7 @@
 		</define>
 
 		<define class="browser">
-			<background color="browserback" bordercolortop="bordercolor" bordercolor="bordercolor" bordersize="1"/>
+			<background color="browserback"/>
 			<colors>
 				<lists text="textbrowser" background="browserback" stripes="browserstripe" over="browserover" overstripes="browseroverstripe" focus="browseroverfocus" selected="browser_selected" text="textbrowser" overtext="textbrowser" selectedtext="texton" focustext="texton" automix="browser_automix" livefeedback="#2a8d75" download="browser_download" scan="browser_scan" button="browser_button" buttonactive="browser_buttonactive"/>
 				<separators line="browser_seperatorline" text="texton" background="browser_seperatortab"/>
@@ -4815,10 +4815,8 @@
  		<pos x="799" y="43"  condition="var_equal '@$waveformpos' 1" />
 
  		<group visibility="var_equal '@$4decks' 0 ? true : var_equal '@$4mixer' 1">
-			<line name="mixer_right" x="1920-799-1" y="+0" width="2" height="341" color="dark" hightlight="shadow" shadow="hightlight"/>
 		</group>
  		<group visibility="var_equal '@$4mixer' 0 && var_not_equal '@$4decks' 0">
-			<line name="mixer_right" x="1920-799-1" y="+0" width="2" height="341+120" color="dark" hightlight="shadow" shadow="hightlight"/>
 		</group>
 
 		<panel name="crossfader_assign" visibility="var_equal '@$cfassign' 1 && var_not_equal '@$4decks' 0">
