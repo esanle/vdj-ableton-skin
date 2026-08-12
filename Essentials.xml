@@ -8,183 +8,183 @@
 
 	<group name="colorscheme">
 		<!-- generic -->
-		<define color="green" value="#4caf50"/> 
-		<define color="darkgreen" value="#2e7d32"/>
+		<define color="green" value="#9cd37e"/> 
+		<define color="darkgreen" value="#6fa35a"/>
 		<define color="white" value="#e8e8e8"/>
-		<define color="gray" value="#9a9a9a"/>
+		<define color="gray" value="#9d9d9d"/>
 		<define color="black" value="#0a0b0d"/>
-		<define color="darker" value="#161718"/>
-		<define color="dark" value="#1a1b1d"/>
+		<define color="darker" value="#2e2e2e"/>
+		<define color="dark" value="#353535"/>
 
 		<!-- Deck colors -->
-		<define color="deckcolor" value="#e84c22" deck="left"/>
-		<define color="deckcolor" value="#00a0b0" deck="right"/>
-		<define color="deckcolorbright" value="#f05a28" deck="left"/>
-		<define color="deckcolorbright" value="#00b4c8" deck="right"/>
-		<define color="deckcolordark" value="#8a2f15" deck="left"/>
-		<define color="deckcolordark" value="#00666e" deck="right"/>
+		<define color="deckcolor" value="#ff7657" deck="left"/>
+		<define color="deckcolor" value="#7ed1d1" deck="right"/>
+		<define color="deckcolorbright" value="#ff9a80" deck="left"/>
+		<define color="deckcolorbright" value="#a8e2e2" deck="right"/>
+		<define color="deckcolordark" value="#c2543a" deck="left"/>
+		<define color="deckcolordark" value="#5a9e9e" deck="right"/>
 
 		<!-- background areas -->
-		<define color="background" value="#222326"/>
-		<define color="background2" value="#1e1f21"/>
-		<define color="background3" value="#26272a"/>
-		<define color="deckinfolines" value="#232426"/>
-		<define color="highlight" value="#38393c"/>
-		<define color="shadow" value="#3a3b3e"/>
-		<define color="dropdown" value="#191a1c"/>
-		<define color="dropdownon" value="#151618"/>
-		<define color="display" value="#141517"/>
-		<define color="waveformbackground" value="#121314"/>
-		<define color="mixerbackground" value="#28292c"/>
-		<define color="faderbackground" value="#28292c"/>
-		<define color="bordercolor" value="#0d0e10"/>
-		<define color="bordercolor2" value="#151618"/>
-		<define color="bordercolor3" value="#1a1b1d"/>
-		<define color="topmenu" value="#2a2b2e"/>
-		<define color="jogwheelbackground" value="#28292c"/>
+		<define color="background" value="#3d3d3d"/>
+		<define color="background2" value="#454545"/>
+		<define color="background3" value="#4b4b4b"/>
+		<define color="deckinfolines" value="#3a3a3a"/>
+		<define color="highlight" value="#5a5a5a"/>
+		<define color="shadow" value="#5a5a5a"/>
+		<define color="dropdown" value="#2e2e2e"/>
+		<define color="dropdownon" value="#282828"/>
+		<define color="display" value="#2e2e2e"/>
+		<define color="waveformbackground" value="#333333"/>
+		<define color="mixerbackground" value="#454545"/>
+		<define color="faderbackground" value="#454545"/>
+		<define color="bordercolor" value="#2a2a2a"/>
+		<define color="bordercolor2" value="#333333"/>
+		<define color="bordercolor3" value="#383838"/>
+		<define color="topmenu" value="#535353"/>
+		<define color="jogwheelbackground" value="#454545"/>
 
-		<define color="pitchlock_off" value="#525252"/>
+		<define color="pitchlock_off" value="#6a6a6a"/>
 
 		<!-- browser --> 
-		<define color="browserback" value="#141517"/>
-		<define color="browserstripe" value="#1a1b1d"/>
-		<define color="browserover" value="#26272a"/> 
-		<define color="browseroverstripe" value="#222326"/> 
-		<define color="browseroverfocus" value="#38393c"/> 
+		<define color="browserback" value="#2e2e2e"/>
+		<define color="browserstripe" value="#3a3a3a"/>
+		<define color="browserover" value="#4b4b4b"/> 
+		<define color="browseroverstripe" value="#454545"/> 
+		<define color="browseroverfocus" value="#5a5a5a"/> 
 		<define color="browser_seperatorline" value="#7E7E7E"/> 
-		<define color="browser_seperatortab" value="#3a3b3e"/>  
-		<define color="browser_scrollbar" value="#28292c"/> 
-		<define color="browser_scrollbtn" value="#9a9a9a"/> 
+		<define color="browser_seperatortab" value="#535353"/>  
+		<define color="browser_scrollbar" value="#454545"/> 
+		<define color="browser_scrollbtn" value="#9d9d9d"/> 
 
 		<!-- browser sampler pads -->
-		<define color="browser_button" value="#28292c"/>
-		<define color="browser_buttonactive" value="#e84c22"/>
-		<define color="browser_buttonselected" value="#3a3b3e"/>
+		<define color="browser_button" value="#454545"/>
+		<define color="browser_buttonactive" value="#ff7657"/>
+		<define color="browser_buttonselected" value="#535353"/>
 
 		<!-- browser list stripes -->
-		<define color="browser_automix" value="#e84c22"/>
-		<define color="browser_scan" value="#8bc34a"/>
-		<define color="browser_scan" value="#8bc34a"/>
-		<define color="browser_selected" value="#2e2f32"/>
-		<define color="browser_download" value="#e8a13a"/> 
+		<define color="browser_automix" value="#ff7657"/>
+		<define color="browser_scan" value="#9cd37e"/>
+		<define color="browser_scan" value="#9cd37e"/>
+		<define color="browser_selected" value="#4b4b4b"/>
+		<define color="browser_download" value="#ffcf6a"/> 
 
 		<!-- browser grid -->
-		<define color="browsergrid_bg" value="#1a1b1d"/>
-		<define color="browsergrid_over" value="#26272a"/>
-		<define color="browsergrid_selected" value="#2e2f32"/>
-		<define color="browsergrid_focus" value="#3a3b3e"/>
+		<define color="browsergrid_bg" value="#3a3a3a"/>
+		<define color="browsergrid_over" value="#4b4b4b"/>
+		<define color="browsergrid_selected" value="#454545"/>
+		<define color="browsergrid_focus" value="#5a5a5a"/>
 
 		<!-- sideview buttons -->
-		<define color="browser_toolbarbutton" value="#3a3b3e"/> 
-		<define color="browser_toolbarbuttonover" value="#45464a"/> 
+		<define color="browser_toolbarbutton" value="#535353"/> 
+		<define color="browser_toolbarbuttonover" value="#5a5a5a"/> 
 
 		<!-- browser icon buttons -->
-		<define color="browser_iconbuttonup" value="#2e2f32"/>
-		<define color="browser_iconbuttonover" value="#45464a"/>
-		<define color="browser_iconbuttondown" value="#242527"/>
-		<define color="browser_iconbuttonselected" value="#3a3b3e"/>
-		<define color="browser_iconbuttonactive" value="#e84c22"/>
+		<define color="browser_iconbuttonup" value="#4b4b4b"/>
+		<define color="browser_iconbuttonover" value="#5a5a5a"/>
+		<define color="browser_iconbuttondown" value="#3a3a3a"/>
+		<define color="browser_iconbuttonselected" value="#535353"/>
+		<define color="browser_iconbuttonactive" value="#ff7657"/>
 
 		<!-- waveforms -->
-		<define color="waveform_active1" value="#f05a28"/>
-		<define color="waveform_passive1" value="#8a2f15"/>
-		<define color="waveform_active2" value="#00b4c8"/>
-		<define color="waveform_passive2" value="#00666e"/>
+		<define color="waveform_active1" value="#ff7657"/>
+		<define color="waveform_passive1" value="#c2543a"/>
+		<define color="waveform_active2" value="#7ed1d1"/>
+		<define color="waveform_passive2" value="#5a9e9e"/>
 
-		<define color="colorbass" value="#8a2f15" deck="left"/> 
-		<define color="colormed" value="#c23e1a" deck="left"/>
-		<define color="colorhigh" value="#f05a28" deck="left"/> 
-		<define color="colorbass" value="#00666e" deck="right"/>
-		<define color="colormed" value="#00808e" deck="right"/> 
-		<define color="colorhigh" value="#00b4c8" deck="right"/>
+		<define color="colorbass" value="#c2543a" deck="left"/> 
+		<define color="colormed" value="#e0644a" deck="left"/>
+		<define color="colorhigh" value="#ff7657" deck="left"/> 
+		<define color="colorbass" value="#5a9e9e" deck="right"/>
+		<define color="colormed" value="#6fb8b8" deck="right"/> 
+		<define color="colorhigh" value="#7ed1d1" deck="right"/>
 
 		<define color="colorbass" value="#71521c" deck="sandbox"/>
 		<define color="colormed" value="#896526" deck="sandbox"/> 
 		<define color="colorhigh" value="#c0892a" deck="sandbox"/> 
 
-		<define color="scratch1" value="#e84c22" deck="left"/>
-		<define color="scratch2" value="#f05a28" deck="left"/>
-		<define color="scratch1" value="#00a0b0" deck="right"/>
-		<define color="scratch2" value="#00b4c8" deck="right"/>
+		<define color="scratch1" value="#ff7657" deck="left"/>
+		<define color="scratch2" value="#ff9a80" deck="left"/>
+		<define color="scratch1" value="#7ed1d1" deck="right"/>
+		<define color="scratch2" value="#a8e2e2" deck="right"/>
 
-		<define color="needle" value="#e8e8e8"/>
+		<define color="needle" value="#ff7657"/>
 		<define color="gridlines" value="#7d7d7d"/>
 
 		<!-- Texts -->
 		<define color="textdeck" value="#157794" deck="left"/>
 		<define color="textdeck" value="#b63039" deck="right"/>  
-		<define color="textdarkdark" value="#5a5a5a"/>
-		<define color="textdarker" value="#5a5a5a"/>
-		<define color="textdark" value="#707070"/>
-		<define color="textoff3" value="#8f8f8f"/>
-		<define color="textoff2" value="#a6a6a6"/>
-		<define color="textoff" value="#c6c6c6"/>
+		<define color="textdarkdark" value="#7a7a7a"/>
+		<define color="textdarker" value="#7a7a7a"/>
+		<define color="textdark" value="#8a8a8a"/>
+		<define color="textoff3" value="#9d9d9d"/>
+		<define color="textoff2" value="#b0b0b0"/>
+		<define color="textoff" value="#d0d0d0"/>
 		<define color="textover" value="#e8e8e8"/>
 		<define color="textover2" value="#e8e8e8"/>
-		<define color="texton" value="#e8e8e8"/>
+		<define color="texton" value="#ffffff"/>
 		<define color="textbright" value="#ffffff"/>
-		<define color="textbrowser" value="#d6d6d6"/>
+		<define color="textbrowser" value="#d0d0d0"/>
 
-		<define color="artist" value="#d6d6d6"/> 
-		<define color="feat" value="#a6a6a6"/> 
+		<define color="artist" value="#d0d0d0"/> 
+		<define color="feat" value="#b0b0b0"/> 
 		<define color="title" value="#e8e8e8"/>
-		<define color="remix" value="#8f8f8f"/>
+		<define color="remix" value="#9d9d9d"/>
 
 		<!-- buttons - pads-->
-		<define color="padseloff1" value="#333438"/>
-		<define color="padseloff2" value="#26272a"/>
-		<define color="padselon1" value="#e84c22" deck="left"/>
-		<define color="padselon2" value="#8a2f15" deck="left"/>
-		<define color="padselon1" value="#00a0b0" deck="right"/>
-		<define color="padselon2" value="#00666e" deck="right"/>
+		<define color="padseloff1" value="#535353"/>
+		<define color="padseloff2" value="#404040"/>
+		<define color="padselon1" value="#ff7657" deck="left"/>
+		<define color="padselon2" value="#c2543a" deck="left"/>
+		<define color="padselon1" value="#7ed1d1" deck="right"/>
+		<define color="padselon2" value="#5a9e9e" deck="right"/>
 
-		<define color="padselover1" value="#3a3b3e"/>
-		<define color="padselover2" value="#2e2f32"/>
+		<define color="padselover1" value="#5a5a5a"/>
+		<define color="padselover2" value="#4b4b4b"/>
 
-		<define color="padsoff1" value="#2e2f32"/>
-		<define color="padsoff2" value="#26272a"/>
-		<define color="padson1" value="#e84c22" deck="left"/>
-		<define color="padson2" value="#c23e1a" deck="left"/>
-		<define color="padson1" value="#00a0b0" deck="right"/>
-		<define color="padson2" value="#00808e" deck="right"/>
+		<define color="padsoff1" value="#4b4b4b"/>
+		<define color="padsoff2" value="#404040"/>
+		<define color="padson1" value="#ff7657" deck="left"/>
+		<define color="padson2" value="#e0644a" deck="left"/>
+		<define color="padson1" value="#7ed1d1" deck="right"/>
+		<define color="padson2" value="#6fb8b8" deck="right"/>
 
-		<define color="buttonoff1" value="#2e2f32"/>
-		<define color="buttonoff2" value="#26272a"/> 
+		<define color="buttonoff1" value="#4b4b4b"/>
+		<define color="buttonoff2" value="#404040"/> 
 		<define color="buttonon" value="#464748"/>
 
-    	<define color="buttonon1" value="#e84c22" deck="left"/>
-		<define color="buttonon2" value="#c23e1a" deck="left"/>
-		<define color="buttonover" value="#a83a1c" deck="left"/>
-		<define color="buttonover1" value="#a83a1c" deck="left"/>
-		<define color="buttonover2" value="#8a2f15" deck="left"/>
+    	<define color="buttonon1" value="#ff7657" deck="left"/>
+		<define color="buttonon2" value="#e0644a" deck="left"/>
+		<define color="buttonover" value="#c2543a" deck="left"/>
+		<define color="buttonover1" value="#c2543a" deck="left"/>
+		<define color="buttonover2" value="#a84a34" deck="left"/>
 
-		<define color="buttonon1" value="#00a0b0" deck="right"/>
-		<define color="buttonon2" value="#00808e" deck="right"/>
-		<define color="buttonover" value="#00707e" deck="right"/>
-		<define color="buttonover1" value="#00707e" deck="right"/>
-		<define color="buttonover2" value="#00666e" deck="right"/>
+		<define color="buttonon1" value="#7ed1d1" deck="right"/>
+		<define color="buttonon2" value="#6fb8b8" deck="right"/>
+		<define color="buttonover" value="#5a9e9e" deck="right"/>
+		<define color="buttonover1" value="#5a9e9e" deck="right"/>
+		<define color="buttonover2" value="#4a8585" deck="right"/>
 
 		<!-- master and video -->
 		<define color="colorvideo1" value="#3a7677" />
 		<define color="colorvideo2" value="#324747"  />
-		<define color="colormasterover" value="#3a3b44"/>
-		<define color="colormaster1" value="#4f5076"/>
-		<define color="colormaster2" value="#3a3b44"/>
-		<define color="mixerbutton1" value="#00a878"/>
-		<define color="mixerbutton2" value="#005e45"/>
+		<define color="colormasterover" value="#6d548f"/>
+		<define color="colormaster1" value="#b48be1"/>
+		<define color="colormaster2" value="#8265a8"/>
+		<define color="mixerbutton1" value="#9cd37e"/>
+		<define color="mixerbutton2" value="#6fa35a"/>
 
 		<!-- faders - knobs-->
-		<define color="knobcolor1" value="#2e2f32"/>
-		<define color="knobcolor2" value="#1a1b1d"/>
-		<define color="faderlines" value="#303134"/>
-		<define color="faderback" value="#242527"/>
-		<define color="faderinoff" value="#1a1b1d"/>
-		<define color="faderin" value="#e84c22" deck="left"/>
-		<define color="faderin" value="#00a0b0" deck="right"/>
-		<define color="knobfill" value="#e84c22" deck="left"/>
-		<define color="knobfill" value="#00a0b0" deck="right"/>
-		<define color="cffaderleft" value="#e84c22"/> 
-		<define color="cffaderright" value="#00a0b0"/> 
+		<define color="knobcolor1" value="#4b4b4b"/>
+		<define color="knobcolor2" value="#353535"/>
+		<define color="faderlines" value="#4a4a4a"/>
+		<define color="faderback" value="#3a3a3a"/>
+		<define color="faderinoff" value="#2e2e2e"/>
+		<define color="faderin" value="#ff7657" deck="left"/>
+		<define color="faderin" value="#7ed1d1" deck="right"/>
+		<define color="knobfill" value="#ff7657" deck="left"/>
+		<define color="knobfill" value="#7ed1d1" deck="right"/>
+		<define color="cffaderleft" value="#ff7657"/> 
+		<define color="cffaderright" value="#7ed1d1"/> 
 	
 	</group>
 
