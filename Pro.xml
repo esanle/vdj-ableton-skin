@@ -68,10 +68,10 @@
 
 
 			<!-- Texts -->
-			<define color="textdeck" value="#1e7b96" deck="1"/>
-			<define color="textdeck" value="#b73841" deck="2"/>  
-			<define color="textdeck" value="#108473" deck="3"/>
-			<define color="textdeck" value="#b05b39" deck="4"/>  
+			<define color="textdeck" value="#ff7657" deck="1"/>
+			<define color="textdeck" value="#7ed1d1" deck="2"/>  
+			<define color="textdeck" value="#9cd37e" deck="3"/>
+			<define color="textdeck" value="#b48be1" deck="4"/>  
 
 			<!--- fader and knobs -->
 			<define color="faderinon" value="#156c89" deck="1"/>

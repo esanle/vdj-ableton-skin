@@ -101,8 +101,8 @@
 		<define color="needle" value="#ff7657"/>
 
 		<!-- Texts -->
-		<define color="textdeck" value="#157794" deck="left"/>
-		<define color="textdeck" value="#b63039" deck="right"/>  
+		<define color="textdeck" value="#ff7657" deck="left"/>
+		<define color="textdeck" value="#7ed1d1" deck="right"/>  
 		<define color="textdarkdark" value="#7a7a7a"/>
 		<define color="textdarker" value="#7a7a7a"/>
 		<define color="textdark" value="#8a8a8a"/>
