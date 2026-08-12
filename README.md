@@ -6,7 +6,7 @@
 
 ## 📸 Preview
 
-![Preview](screenshot.png)
+![Preview](screenshot.jpg)
 
 ## ✨ Features
 
@@ -52,7 +52,7 @@ VDJ Skin Default Flat/
 ├── Vertical.xml          # Vertical layout
 ├── gfx-basic.png         # Basic graphics sprite
 ├── gfx-pro.png           # Pro graphics sprite
-├── screenshot.png        # Preview screenshot
+├── screenshot.jpg        # Preview screenshot
 └── fonts/                # AbletonSans font files
 ```
 
