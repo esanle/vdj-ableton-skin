@@ -372,52 +372,52 @@
 
 			<!-- generic -->
 			<define color="white" value="#e8e8e8"/>
-			<define color="black" value="#0a0b0d"/>
-			<define color="darker" value="#1e1e1e"/>
-			<define color="dark" value="#242424"/>
+			<define color="black" value="#050607"/>
+			<define color="darker" value="#141414"/>
+			<define color="dark" value="#181818"/>
 
 			<!-- Texts -->
-			<define color="textdarkdark" value="#7a7a7a"/>
-			<define color="textdarker" value="#7a7a7a"/>
-			<define color="textdark" value="#8a8a8a"/>
+			<define color="textdarkdark" value="#484848"/>
+			<define color="textdarker" value="#5a5a5a"/>
+			<define color="textdark" value="#6e6e6e"/>
 			<define color="textoff3" value="#9a9a9a"/>
 			<define color="textoff2" value="#b4b4b4"/>
 			<define color="textoff" value="#d6d6d6"/>
-			<define color="textover" value="#e8e8e8"/>
+			<define color="textover" value="#f0f0f0"/>
 			<define color="textselected" value="#b9b9b9"/>
 			<define color="texton" value="#ffffff"/>
 			<define color="textbright" value="#ffffff"/>
-			<define color="textbrowser" value="#d0d0d0"/>
+			<define color="textbrowser" value="#d6d6d6"/>
 
 
 
 			<!-- backgrounds -->
-			<define color="display" value="#1e1e1e"/> 
-			<define color="waveformbackground" value="#222222"/>
-			<define color="browserback" value="#1e1e1e"/>
-			<define color="decktabs" value="#2e2e2e"/>
-			<define color="dropdown" value="#1c1c1c"/> 
-			<define color="mixerbackground" value="#333333"/>
-			<define color="faderbackground" value="#333333"/>  
- 			<define color="topmenu" value="#3a3a3a"/> 
-			<define color="vubackground" value="#454545"/>
-			<define color="jogwheelbackground" value="#454545"/>
-			<define color="background" value="#262626"/>
-			<define color="background2" value="#2c2c2c"/>
+			<define color="display" value="#141414"/> 
+			<define color="waveformbackground" value="#161616"/>
+			<define color="browserback" value="#141414"/>
+			<define color="decktabs" value="#1e1e1e"/>
+			<define color="dropdown" value="#121212"/> 
+			<define color="mixerbackground" value="#232323"/>
+			<define color="faderbackground" value="#232323"/>  
+ 			<define color="topmenu" value="#282828"/> 
+			<define color="vubackground" value="#282828"/>
+			<define color="jogwheelbackground" value="#282828"/>
+			<define color="background" value="#1a1a1a"/>
+			<define color="background2" value="#1e1e1e"/>
 
 			<!-- buttons-->
-			<define color="buttonoff" value="#333333"/> 
-			<define color="knobcolor1" value="#4b4b4b"/>
-			<define color="knobcolor2" value="#353535"/>
-			<define color="faderlines" value="#4a4a4a"/>
+			<define color="buttonoff" value="#232323"/> 
+			<define color="knobcolor1" value="#2e2e2e"/>
+			<define color="knobcolor2" value="#242424"/>
+			<define color="faderlines" value="#303030"/>
 
-			<define color="knobcolor1" value="#4b4b4b"/>
-			<define color="knobcolor2" value="#353535"/>
-			<define color="knobfilloff" value="#3a3a3a"/> 
+			<define color="knobcolor1" value="#2e2e2e"/>
+			<define color="knobcolor2" value="#242424"/>
+			<define color="knobfilloff" value="#2e2e2e"/> 
 			<define color="knobfilloff2" value="#2d2e31"/>  
 
-			<define color="bordercolor" value="#141414"/>
-			<define color="bordercolor2" value="#222222"/>
+			<define color="bordercolor" value="#0a0a0a"/>
+			<define color="bordercolor2" value="#141414"/>
 
 
 
