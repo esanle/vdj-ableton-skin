@@ -1069,7 +1069,7 @@
 				<textzone action="edit_bpm">
 					<pos x="+35" y="+0"/>
 					<size width="85" height="34"/>
-					<text fontsize="25" color="textdeck" weight="bold" align="right" format="`get_bpm & param_cast '%.1f'`"/> 
+					<text fontsize="25" color="textdeck" weight="bold" align="right" format="%Pbpmex"/> 
 				</textzone>
 				<textzone >
 					<pos x="+10" y="+15"/>
@@ -1192,7 +1192,7 @@
 				<textzone action="edit_bpm" >
 					<pos x="+8" y="+2"/>
 					<size width="85" height="34"/>
-					<text fontsize="25" color="textdeck" weight="bold" align="left" format="`get_bpm & param_cast '%.1f'`"/>
+					<text fontsize="25" color="textdeck" weight="bold" align="left" format="%Pbpmex"/>
 				</textzone>
 				<textzone>
 					<pos x="+130-27-10" y="+17"/>

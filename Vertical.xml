@@ -1256,7 +1256,7 @@
 					<textzone tooltip="`get_bpm 'all'`">
 						<pos x="+0" y="+35"/>
 						<size width="164" height="30"/>
-						<text fontsize="30" color="textdeck" align="center" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+						<text fontsize="30" color="textdeck" align="center" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<group y="+73">
 				        <textzone>
@@ -1320,7 +1320,7 @@
 					<textzone tooltip="`get_bpm 'all'`">
 						<pos x="+0" y="+35"/>
 						<size width="164" height="30"/>
-						<text fontsize="30" color="textdeck" align="center" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+						<text fontsize="30" color="textdeck" align="center" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<group y="+73">
 				        <textzone>
@@ -1384,7 +1384,7 @@
 					<textzone tooltip="`get_bpm 'all'`">
 						<pos x="+0" y="+35"/>
 						<size width="164" height="30"/>
-						<text fontsize="30" color="textdeck" align="center" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+						<text fontsize="30" color="textdeck" align="center" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<group y="+73">
 				        <textzone>
@@ -2084,7 +2084,7 @@
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$spinner' 0">
 						<pos x="+170-80-8" y="+1"/>
 						<size width="80" height="34"/>
-						<text fontsize="26" color="textdeck" align="right" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+						<text fontsize="26" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="[value]" novisibility="var_equal '@$spinner' 0">
 						<pos x="+170-80-8" y="+0"/>
@@ -2933,7 +2933,7 @@
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$spinner' 0">
 						<pos x="+8" y="+1"/>
 						<size width="80" height="34"/>
-						<text fontsize="26" color="textdeck" align="left" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+						<text fontsize="26" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="[value]" novisibility="var_equal '@$spinner' 0">
 						<pos x="+8" y="+0"/>
@@ -3722,7 +3722,7 @@
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
 							<pos x="+753-80-8" y="+1"/>
 							<size width="80" height="34"/>
-							<text fontsize="22" color="textdeck" align="right" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+							<text fontsize="22" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
 						</textzone>
 					</group>
 					<group name="key_area" x="+753-170+3" y="+7" visibility="loaded">
@@ -3958,7 +3958,7 @@
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
 							<pos x="+8" y="+1"/>
 							<size width="80" height="34"/>
-							<text fontsize="22" color="textdeck" align="left" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
+							<text fontsize="22" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
 						</textzone>
 					</group>
 					<group name="key_area" x="+80+3" y="+7" visibility="loaded">
