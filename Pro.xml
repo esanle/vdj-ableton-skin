@@ -1223,7 +1223,7 @@
 					<textzone tooltip="`get_bpm 'all'`">
 						<pos x="+0" y="+35"/>
 						<size width="164" height="30"/>
-						<text fontsize="30" color="textdeck" align="center" weight="bold" format="%Pbpmex"/>
+						<text fontsize="30" color="textdeck" align="center" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>
 					<group y="+73">
 				        <textzone>
@@ -1287,7 +1287,7 @@
 					<textzone tooltip="`get_bpm 'all'`">
 						<pos x="+0" y="+35"/>
 						<size width="164" height="30"/>
-						<text fontsize="30" color="textdeck" align="center" weight="bold" format="%Pbpmex"/>
+						<text fontsize="30" color="textdeck" align="center" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>
 					<group y="+73">
 				        <textzone>
@@ -2003,12 +2003,12 @@
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$spinner' 0 ? yes : has_video_mix active && skin_panel 'videomixer'">
 						<pos x="+170-80-8" y="+1"/>
 						<size width="80" height="34"/>
-						<text fontsize="26" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
+						<text fontsize="26" color="textdeck" align="right" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" novisibility="var_equal '@$spinner' 0 ? yes : has_video_mix active && skin_panel 'videomixer'">
 						<pos x="+170-80-8" y="+0"/>
 						<size width="80" height="34"/>
-						<text fontsize="22" color="textdarker" align="right" weight="bold" format="%bpmex"/>
+						<text fontsize="22" color="textdarker" align="right" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>
 				</group>
 				<group name="key_area" x="+26+753-170" y="+32" visibility="loaded">
@@ -2941,12 +2941,12 @@
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$spinner' 0 ? yes : has_video_mix active && skin_panel 'videomixer'">
 						<pos x="+8" y="+1"/>
 						<size width="80" height="34"/>
-						<text fontsize="26" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
+						<text fontsize="26" color="textdeck" align="left" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>²
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" novisibility="var_equal '@$spinner' 0 ? yes : has_video_mix active && skin_panel 'videomixer'">
 						<pos x="+8" y="+0"/>
 						<size width="80" height="34"/>
-						<text fontsize="22" color="textdarker" align="left" weight="bold" format="%bpmex"/>
+						<text fontsize="22" color="textdarker" align="left" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 					</textzone>
 				</group>
 				<group name="key_area" x="+0" y="+32" visibility="loaded">
@@ -3818,7 +3818,7 @@
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
 							<pos x="+753-80-8" y="+1"/>
 							<size width="80" height="34"/>
-							<text fontsize="22" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
+							<text fontsize="22" color="textdeck" align="right" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 						</textzone>
 					</group>
 					<group name="key_area" x="+753-170+3" y="+7" visibility="loaded">
@@ -4053,7 +4053,7 @@
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
 							<pos x="+8" y="+1"/>
 							<size width="80" height="34"/>
-							<text fontsize="22" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
+							<text fontsize="22" color="textdeck" align="left" weight="bold" format="`get_bpm & param_cast '%.1f'`"/>
 						</textzone>
 					</group>
 					<group name="key_area" x="+80+3" y="+7" visibility="loaded">

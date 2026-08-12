@@ -1814,7 +1814,7 @@
 			<textzone action="edit_bpm" tooltip="">
 				<pos x="+[AREAWIDTH]-85-10" y="+0"/>
 				<size width="85" height="32"/>
-				<text fontsize="24" color="textdeck" weight="bold" align="right" format="%Pbpmex"/>
+				<text fontsize="24" color="textdeck" weight="bold" align="right" format="`get_bpm & param_cast '%.1f'`"/>
 			</textzone>
 			<textzone action="edit_bpm" tooltip="" visibility="loaded">
 				<pos x="+[AREAWIDTH]-85-10-25" y="+10"/>
@@ -1908,7 +1908,7 @@
 			<textzone action="edit_bpm" tooltip="">
 				<pos x="+10" y="+0"/>
 				<size width="85" height="32"/>
-				<text fontsize="24" color="textdeck" weight="bold" align="left" format="%Pbpmex"/>
+				<text fontsize="24" color="textdeck" weight="bold" align="left" format="`get_bpm & param_cast '%.1f'`"/>
 			</textzone>
 			<textzone action="edit_bpm" tooltip="" visibility="loaded">
 				<pos x="+85+10" y="+10"/>
