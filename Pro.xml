@@ -1,6 +1,6 @@
 <skin name="VDJ Skin Default Flat" version="2020" width="1920" height="1080" comment="Default Interface • Pro layout" breakline="675" image="gfx-pro.png" preview="pro.png" author="Atomix Productions">
 	<copyright>Atomix Productions</copyright>
-	<font name="Google Sans Flex"/>
+	<font name="Ableton Sans Small"/>
 
 	<nbdecks value="2" condition="var_equal '@$4decks' 0"/>
 	<nbdecks value="4" condition="var_not_equal '@$4decks' 0"/>
@@ -1373,7 +1373,7 @@
 				<menuover shape="circle" color="gray" width="29" height="29"/>
 			</button>
 			<fontsearch size="18"/>
-			<font name="Google Sans Flex" size="20"/>
+			<font name="Ableton Sans Small" size="20"/>
 			<fontheader size="16"/>
 			<fontgridtitle size="18"/>
 			<fonttoolbar size="14"/>

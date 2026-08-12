@@ -1,6 +1,6 @@
 <skin name="VDJ Skin Default Flat" version="2020" width="1920" height="1080" nbdecks="2" comment="Default Interface • Essential layout" breakline="568" breakline2="1070" image="gfx-basic.png" preview="essentials.png" author="Atomix Productions">
 <copyright>Atomix Productions</copyright>
-<font name="Google Sans Flex"/>
+<font name="Ableton Sans Small"/>
 <background x="1817" y="0" width="100" height="100" repeat="true"/>
 <customicons file="icons_daylight.png" nb="64" nbx="16" condition="var_equal '@$colorscheme' 2"/>
 
@@ -915,7 +915,7 @@
 					<menuover shape="circle" color="gray" width="29" height="29"/>
 				</button>
 				<fontsearch size="18"/>
-				<font name="Google Sans Flex" size="20"/>
+				<font name="Ableton Sans Small" size="20"/>
 				<fontheader size="16"/>
 				<fontgridtitle size="18"/>
 				<fonttoolbar size="14"/>
