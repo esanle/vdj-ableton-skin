@@ -1,78 +1,84 @@
 # VDJ Skin Default Flat — Ableton Edition
 
-> 一个 Ableton Live 风格的 VirtualDJ 皮肤：扁平无描边 + 珊瑚橙/青色彩体系 + Ableton 原版字体。
+> An Ableton Live-inspired skin for VirtualDJ: flat design with no borders, coral-orange/teal accent palette, and the original Ableton font.
 
 ![VDJ](https://img.shields.io/badge/VirtualDJ-2020+-blue) ![Style](https://img.shields.io/badge/style-flat-orange) ![Ableton](https://img.shields.io/badge/inspired-Ableton%20Live-ff7657)
 
-## ✨ 特性
+## 📸 Preview
 
-- **4 套配色方案**（Color Scheme 菜单切换）：
-  - **Default** — Ableton 标准深色（中灰 `#3d3d3d` 底）
-  - **Contrast** — 高对比深色（更深底 + 更亮文字）
-  - **Dark** — 近黑（`#1a1a1a` 底）
-  - **Daylight** — Ableton 浅色主题
-- **Ableton 色彩体系**：
-  - Deck A/C：珊瑚橙 `#ff7657`（Ableton 标志色）
-  - Deck B/D：浅青 `#7ed1d1`
-  - Deck 3：浅绿 `#9cd37e` / Deck 4：浅紫 `#b48be1`
-- **扁平无描边**：所有按钮、面板、波形、浏览器边框全部去除描边线
-- **Ableton 原版字体**：`AbletonSans Small`（从 Ableton Live 12 提取，见 `fonts/`）
-- **5 种布局**：Essentials / Pro / Performance / Starter / Vertical
+![Preview](docs/screenshot.png)
 
-## 📦 安装
+## ✨ Features
 
-1. **安装字体**（必需）：双击 `fonts/` 目录下的 4 个 `.ttf` 文件安装到系统
-   - `AbletonSansSmall-Regular.ttf` — 界面主字体
-   - `AbletonSansSmall-Bold.ttf` — 数字/强调
-   - `AbletonSansSmall-RegularItalic.ttf` — 斜体
-   - `AbletonSans-Light.ttf` — 大标题
+- **4 color schemes** (switch via the Color Scheme menu):
+  - **Default** — Ableton standard dark (mid-gray `#3d3d3d` base)
+  - **Contrast** — high-contrast dark (darker base, brighter text)
+  - **Dark** — near-black (`#1a1a1a` base)
+  - **Daylight** — Ableton light theme
+- **Ableton accent palette**:
+  - Deck A/C: coral orange `#ff7657` (Ableton signature color)
+  - Deck B/D: light teal `#7ed1d1`
+  - Deck 3: light green `#9cd37e` / Deck 4: light purple `#b48be1`
+- **Flat, borderless** — all button/panel/waveform/browser borders removed
+- **Original Ableton font**: `AbletonSans Small` (extracted from Ableton Live 12, see `fonts/`)
+- **5 layouts**: Essentials / Pro / Performance / Starter / Vertical
 
-2. **安装皮肤**：把整个文件夹复制到 VirtualDJ 的 Skins 目录：
-   - Windows: `C:\Users\<用户名>\Documents\VirtualDJ\Skins\`
+## 📦 Installation
+
+1. **Install the fonts** (required): double-click the 4 `.ttf` files in the `fonts/` folder
+   - `AbletonSansSmall-Regular.ttf` — main UI font
+   - `AbletonSansSmall-Bold.ttf` — numbers/emphasis
+   - `AbletonSansSmall-RegularItalic.ttf` — italic
+   - `AbletonSans-Light.ttf` — large headings
+
+2. **Install the skin**: copy the whole folder into the VirtualDJ Skins directory:
+   - Windows: `C:\Users\<username>\Documents\VirtualDJ\Skins\`
    - macOS: `~/Documents/VirtualDJ/Skins/`
 
-3. 在 VirtualDJ 的 **LAYOUT** 菜单选择 **VDJ Skin Default Flat**
+3. In VirtualDJ, select **VDJ Skin Default Flat** from the **LAYOUT** menu
 
-## 🎨 切换配色
+## 🎨 Switching Color Schemes
 
 LAYOUT → Color Scheme → Default / Contrast / Dark / Daylight
 
-## 📁 目录结构
+## 📁 Structure
 
 ```
 VDJ Skin Default Flat/
-├── Essentials.xml        # Essentials 布局
-├── Pro.xml               # Pro 布局
-├── Performance.xml       # Performance 布局（含 4 deck）
-├── Starter.xml           # Starter 布局
-├── Vertical.xml          # Vertical 布局
-├── gfx-basic.png         # 基础图形精灵
-├── gfx-pro.png           # Pro 图形精灵
-└── fonts/                # AbletonSans 字体文件
+├── Essentials.xml        # Essentials layout
+├── Pro.xml               # Pro layout
+├── Performance.xml       # Performance layout (incl. 4-deck)
+├── Starter.xml           # Starter layout
+├── Vertical.xml          # Vertical layout
+├── gfx-basic.png         # Basic graphics sprite
+├── gfx-pro.png           # Pro graphics sprite
+├── docs/
+│   └── screenshot.png    # Preview screenshot
+└── fonts/                # AbletonSans font files
 ```
 
-## 🛠 自定义
+## 🛠 Customization
 
-### 修改配色
+### Colors
 
-所有颜色定义在 XML 的 `<group name="colorscheme">` 内：
+All colors are defined in the `<group name="colorscheme">` section of each XML:
 
 ```xml
-<define color="background" value="#3d3d3d"/>   <!-- 主背景 -->
-<define color="deckcolor" value="#ff7657" deck="left"/>  <!-- Deck A 色 -->
-<define color="deckcolor" value="#7ed1d1" deck="right"/> <!-- Deck B 色 -->
+<define color="background" value="#3d3d3d"/>                    <!-- main background -->
+<define color="deckcolor" value="#ff7657" deck="left"/>          <!-- Deck A color -->
+<define color="deckcolor" value="#7ed1d1" deck="right"/>         <!-- Deck B color -->
 ```
 
-### 修改字体
+### Font
 
 ```xml
 <font name="Ableton Sans Small"/>
 ```
 
-## ⚠️ 免责声明
+## ⚠️ Disclaimer
 
-本项目与 Ableton、VirtualDJ / Atomix Productions 均无关联，非官方作品。AbletonSans 字体版权归 Ableton 所有，仅供个人使用。
+This project is not affiliated with, sponsored by, or endorsed by Ableton or Atomix Productions / VirtualDJ. The AbletonSans font is © Ableton and is included for personal use only.
 
-## 📜 许可
+## 📜 License
 
-皮肤 XML 基于 VirtualDJ 默认皮肤修改（Atomix Productions 版权），修改部分仅供学习交流。
+Skin XML is derived from the VirtualDJ default skin (© Atomix Productions). Modifications are provided for learning and personal use.
