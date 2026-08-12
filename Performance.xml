@@ -2551,13 +2551,13 @@
 						</button>
 					</group>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$decklayout' 1 ? var_equal '@$spinner' 0 : true">
-						<pos x="+170-80-8" y="+1"/>
-						<size width="80" height="34"/>
+						<pos x="+170-95-8" y="+1"/>
+						<size width="95" height="34"/>
 						<text fontsize="26" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="[value]" novisibility="var_not_equal '@$decklayout' 1 ? true : var_equal '@$spinner' 0">
 						<pos x="+170-80-8" y="+0"/>
-						<size width="80" height="34"/>
+						<size width="90" height="34"/>
 						<text fontsize="22" color="textdarker" align="right" weight="bold" action="get_bpm 'absolute' & param_cast '0.00'"/>
 					</textzone>
 				</group>
@@ -2827,12 +2827,12 @@
 					</group>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="`get_bpm 'all'`" visibility="var_equal '@$decklayout' 1 ? var_equal '@$spinner' 0 : true">
 						<pos x="+8" y="+1"/>
-						<size width="80" height="34"/>
+						<size width="95" height="34"/>
 						<text fontsize="26" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
 					</textzone>
 					<textzone action="skin_panel 'adjustbpm_area_[PANELNAME]'" tooltip="[value]" novisibility="var_not_equal '@$decklayout' 1 ? true : var_equal '@$spinner' 0">
 						<pos x="+8" y="+0"/>
-						<size width="80" height="34"/>
+						<size width="90" height="34"/>
 						<text fontsize="22" color="textdarker" align="left" weight="bold" action="get_bpm 'absolute' & param_cast '0.00'"/>
 					</textzone>
 				</group>
@@ -3709,8 +3709,8 @@
 					</group>
 					<group name="bpm_area">
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
-							<pos x="+800-80-8" y="+1"/>
-							<size width="80" height="34"/>
+							<pos x="+800-90-8" y="+1"/>
+							<size width="90" height="34"/>
 							<text fontsize="22" color="textdeck" align="right" weight="bold" format="%Pbpmex"/>
 						</textzone>
 					</group>
@@ -4288,7 +4288,7 @@
 					<group name="bpm_area">
 						<textzone action="edit_bpm" tooltip="`get_bpm 'all'`">
 							<pos x="+8" y="+1"/>
-							<size width="80" height="34"/>
+							<size width="90" height="34"/>
 							<text fontsize="22" color="textdeck" align="left" weight="bold" format="%Pbpmex"/>
 						</textzone>
 					</group>
